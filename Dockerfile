@@ -15,4 +15,4 @@ RUN cpanm --installdeps .
 EXPOSE 8080
 
 # Command to start the Perl website (adjust as needed)
-CMD ["perl", "app.pl"]
+CMD ["perl", "scigen.pl"]
